@@ -126,7 +126,7 @@ const NavBar = () => {
 						</div>
 
 						<div
-							className={`absolute shadow-2xl top-[110%] right-0 max-h-0 overflow-hidden duration-300 ${
+							className={`absolute shadow-2xl top-[110%] right-0 max-h-0 overflow-hidden duration-300 bg-brand-color ${
 								isMenuShow && "max-h-[600px] top-[100%]"
 							}`}
 						>
