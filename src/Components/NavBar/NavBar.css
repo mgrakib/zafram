@@ -1,0 +1,5 @@
+.navitem{
+
+    @apply px-[25px] py-3 md:py-[15px] text-gray-color cursor-pointer
+
+}

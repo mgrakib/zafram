@@ -9,6 +9,7 @@ export default {
 				"secondary-black": "var(--secondary-black)",
 				"white-color": "var(--white-color)",
 				"secondary-color": "var(--secondary-color)",
+				"gray-color": "var(--gray-color)",
 			},
 		},
 	},
