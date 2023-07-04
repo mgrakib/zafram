@@ -5,6 +5,8 @@ import desingIMg from '../../Assets/images/design_.png'
 import trangleShape from '../../Assets/images/trangle_shape.png'
 import lineShape from '../../Assets/images/line_shape.png'
 
+import './DesignSolution.css'
+
 const DesignSolution = () => {
 	return (
 		<div className='py-[20px] md:py-[80px] relative'>
@@ -25,16 +27,16 @@ const DesignSolution = () => {
 
 						<div className='my-[15px]'>
 							<ul className='flex flex-col md:flex-row md:items-center flex-wrap'>
-								<li className='w-full py-1 md:w-1/2'>
+								<li className='before-item w-full relative pl-5 py-1 md:w-1/2'>
 									Business Advisory
 								</li>
-								<li className='w-full py-1 md:w-1/2'>
+								<li className='before-item w-full relative pl-5 py-1 md:w-1/2'>
 									Business Consulting
 								</li>
-								<li className='w-full py-1 md:w-1/2'>
+								<li className='before-item w-full relative pl-5 py-1 md:w-1/2'>
 									Responsibility Of Corporate
 								</li>
-								<li className='w-full py-1 md:w-1/2'>
+								<li className='before-item w-full relative pl-5 py-1 md:w-1/2'>
 									Innovative Ideas
 								</li>
 							</ul>
