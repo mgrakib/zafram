@@ -1,0 +1,17 @@
+
+:root{
+  --brand-color:#0C6756;
+  --action-color:#FFAF02;
+  --secondary-black:#151611;
+  --white-color:#fff;
+  --secondary-color:#EAF5FF;
+
+}
+
+body{
+  font-size: 14px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
