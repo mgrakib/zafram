@@ -7,12 +7,12 @@ import lineShape from '../../Assets/images/line_shape.png'
 
 const DesignSolution = () => {
 	return (
-		<div className='py-[80px] relative'>
+		<div className='py-[20px] md:py-[80px] relative'>
 			<Container>
-				<div className='flex items-center gap-10'>
-					<div className='w-1/2 pr-10'>
+				<div className='flex flex-col md:flex-row items-center gap-10'>
+					<div className='w-full md:w-1/2 pr-10'>
 						<p>About the company</p>
-						<h4 className='text-[42px] font-[600] leading-[48px] mt-[15px]'>
+						<h4 className='text-[28px] md:text-[42px] font-[600] leading-[32px] md:leading-[48px] mt-[15px]'>
 							We provide the best desing solution
 						</h4>
 
@@ -24,26 +24,34 @@ const DesignSolution = () => {
 						</p>
 
 						<div className='my-[15px]'>
-							<ul className='flex items-center flex-wrap'>
-								<li className='w-1/2'>Business Advisory</li>
-								<li className='w-1/2'>Business Consulting</li>
-								<li className='w-1/2'>
+							<ul className='flex flex-col md:flex-row md:items-center flex-wrap'>
+								<li className='w-full py-1 md:w-1/2'>
+									Business Advisory
+								</li>
+								<li className='w-full py-1 md:w-1/2'>
+									Business Consulting
+								</li>
+								<li className='w-full py-1 md:w-1/2'>
 									Responsibility Of Corporate
 								</li>
-								<li className='w-1/2'>Innovative Ideas</li>
+								<li className='w-full py-1 md:w-1/2'>
+									Innovative Ideas
+								</li>
 							</ul>
 						</div>
 
 						<div>
-							<button>Read More </button>
+							<button className='bg-action-color py-2 px-4 rounded-md'>
+								Read More{" "}
+							</button>
 						</div>
 					</div>
 
-					<div className='w-1/2 bg-red-500'>
+					<div className='w-full md:w-1/2 bg-red-500'>
 						<img
 							src={desingIMg}
-                            alt=''
-                            className="w-full"
+							alt=''
+							className='w-full'
 						/>
 					</div>
 				</div>
@@ -52,13 +60,13 @@ const DesignSolution = () => {
 			<div>
 				<img
 					src={trangleShape}
-                    alt=''
-                    className="absolute top-[20%] right-0"
+					alt=''
+					className='absolute hidden md:block md:top-[20%] right-0'
 				/>
 				<img
 					src={lineShape}
-                    alt=''
-                    className="absolute bottom-[20%]"
+					alt=''
+					className='absolute hidden md:block bottom-[20%]'
 				/>
 			</div>
 		</div>
